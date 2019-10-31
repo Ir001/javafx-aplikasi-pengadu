@@ -27,13 +27,9 @@ import javafx.scene.paint.Color;
  */
 public class Interface_homeController implements Initializable {
 
-    @FXML
     private Label home;
-    @FXML
     private Label profile;
-    @FXML
     private Label ajukan;
-    @FXML
     private Label logout;
     @FXML
     private ScrollPane SuperPane;
@@ -46,7 +42,6 @@ public class Interface_homeController implements Initializable {
         // TODO
     }    
 
-    @FXML
     private void HomeClicked(MouseEvent event) {
         try{
             //System.out.println(getClass().getResource("interface_home.fxml").getPath());
@@ -61,7 +56,6 @@ public class Interface_homeController implements Initializable {
         }
     }
 
-    @FXML
     private void ProfileClicked(MouseEvent event) {
         try{
             home.setBackground(new Background(new BackgroundFill(Color.TRANSPARENT, CornerRadii.EMPTY, Insets.EMPTY)));
@@ -77,7 +71,6 @@ public class Interface_homeController implements Initializable {
         
     }
 
-    @FXML
     private void AjukanAduanClicked(MouseEvent event) {
        try{ 
         home.setBackground(new Background(new BackgroundFill(Color.TRANSPARENT, CornerRadii.EMPTY, Insets.EMPTY)));
@@ -91,7 +84,6 @@ public class Interface_homeController implements Initializable {
        }
     }
 
-    @FXML
     private void LogoutClicked(MouseEvent event) {
         home.setBackground(new Background(new BackgroundFill(Color.TRANSPARENT, CornerRadii.EMPTY, Insets.EMPTY)));
         profile.setBackground(new Background(new BackgroundFill(Color.TRANSPARENT, CornerRadii.EMPTY, Insets.EMPTY)));
