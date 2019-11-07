@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<ScrollPane fx:id="SuperPane" prefHeight="423.0" prefWidth="457.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controler.Interface_homeController">
+<ScrollPane fx:id="SuperPane" prefHeight="423.0" prefWidth="457.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controler.AjukanAduanController">
    <content>
       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="415.0" prefWidth="448.0" style="-fx-background-color: #fff;">
          <children>
@@ -33,9 +33,9 @@
                   <Font name="Arial" size="13.0" />
                </font>
             </Label>
-            <TextField layoutX="164.0" layoutY="110.0" prefHeight="32.0" prefWidth="263.0" />
-            <TextArea layoutX="31.0" layoutY="233.0" prefHeight="123.0" prefWidth="398.0" />
-            <ComboBox editable="true" layoutX="164.0" layoutY="159.0" prefHeight="37.0" prefWidth="264.0" promptText="Pilih" />
+            <TextField layoutX="164.0" layoutY="110.0" prefHeight="32.0" prefWidth="263.0" promptText="Nomor Induk Siswa" />
+            <TextArea layoutX="31.0" layoutY="233.0" prefHeight="123.0" prefWidth="398.0" promptText="Tulis aduanmu disini" wrapText="true" />
+            <ComboBox layoutX="164.0" layoutY="159.0" prefHeight="37.0" prefWidth="264.0" promptText="Pilih" />
             <Button layoutX="337.0" layoutY="367.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="93.0" text="Ajukan" />
          </children>
       </AnchorPane>

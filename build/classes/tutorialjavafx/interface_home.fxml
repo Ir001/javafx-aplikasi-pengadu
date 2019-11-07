@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.net.URL?>
-<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
@@ -20,43 +19,36 @@
          <children>
             <Pane prefHeight="400.0" prefWidth="142.0" style="-fx-background-color: #28A1A1;">
                <children>
-                  <Label fx:id="home" accessibleRole="HYPERLINK" alignment="CENTER" contentDisplay="CENTER" layoutX="-3.0" layoutY="137.0" onMouseClicked="#HomeClicked" prefHeight="56.0" prefWidth="142.0" text="Home" textAlignment="CENTER" textFill="WHITE">
-                     <font>
-                        <Font name="Arial" size="14.0" />
-                     </font>
-                     <cursor>
-                        <Cursor fx:constant="HAND" />
-                     </cursor>
-                  </Label>
-                  <Label fx:id="profile" accessibleRole="BUTTON" alignment="CENTER" contentDisplay="CENTER" layoutX="-3.0" layoutY="184.0" onMouseClicked="#ProfileClicked" prefHeight="41.0" prefWidth="142.0" text="Profile" textAlignment="CENTER" textFill="WHITE">
-                     <font>
-                        <Font name="Arial" size="14.0" />
-                     </font>
-                     <cursor>
-                        <Cursor fx:constant="HAND" />
-                     </cursor>
-                  </Label>
-                  <Label fx:id="ajukan" alignment="CENTER" contentDisplay="CENTER" layoutX="-3.0" layoutY="224.0" onMouseClicked="#AjukanAduanClicked" prefHeight="47.0" prefWidth="142.0" text="Ajukan Aduan" textAlignment="CENTER" textFill="WHITE">
-                     <font>
-                        <Font name="Arial" size="14.0" />
-                     </font>
-                     <cursor>
-                        <Cursor fx:constant="HAND" />
-                     </cursor>
-                  </Label>
-                  <Label fx:id="logout" alignment="CENTER" contentDisplay="CENTER" layoutX="-3.0" layoutY="273.0" onMouseClicked="#LogoutClicked" prefHeight="41.0" prefWidth="142.0" text="Logout" textAlignment="CENTER" textFill="WHITE">
-                     <font>
-                        <Font name="Arial" size="14.0" />
-                     </font>
-                     <cursor>
-                        <Cursor fx:constant="HAND" />
-                     </cursor>
-                  </Label>
                   <ImageView fitHeight="93.0" fitWidth="112.0" layoutX="15.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../img/profile.jpg" />
+                        <Image url="@../img/profile.jpg" />
                      </image>
                   </ImageView>
+                  <Label fx:id="home" alignment="CENTER" layoutX="-1.0" layoutY="136.0" prefHeight="35.0" prefWidth="142.0" text="Home" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="profile" alignment="CENTER" layoutY="171.0" prefHeight="35.0" prefWidth="142.0" text="Profile" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="siswa" alignment="CENTER" layoutY="206.0" onMouseClicked="#klikSiswa" prefHeight="35.0" prefWidth="142.0" text="Data Siswa" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="ajukan" alignment="CENTER" layoutX="-1.0" layoutY="241.0" prefHeight="35.0" prefWidth="142.0" text="Ajukan Aduan" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="logout" alignment="CENTER" layoutY="276.0" prefHeight="35.0" prefWidth="142.0" text="Logout" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
                </children>
             </Pane>
             <ScrollPane fx:id="SuperPane" prefHeight="400.0" prefWidth="457.0">

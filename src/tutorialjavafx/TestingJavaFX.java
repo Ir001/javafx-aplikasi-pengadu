@@ -31,6 +31,7 @@ public class TestingJavaFX extends Application {
         stage.setScene(scene);
         stage.setTitle("Aplikasi Pengadu");
         stage.show();
+        System.out.println(root);
     }
 
 
